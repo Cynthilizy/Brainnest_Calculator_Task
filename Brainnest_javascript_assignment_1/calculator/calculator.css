@@ -1,0 +1,109 @@
+body {
+    background-color: chocolate;
+}
+
+.wrapper {
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid purple;
+    width: fit-content;
+    height: 399px;
+}
+
+.display {
+    background-color: rgb(189, 133, 187);
+    text-align: center;
+    border: 2px solid black;
+    width: 300px;
+    height: 70px;
+}
+
+.container {
+    display: grid;
+    width: 275px;
+    height: 8cm;
+    grid-template-areas:
+        "a b c d"
+        "e f g h"
+        "i j k l"
+        "m n o p"
+        "q q q q";
+}
+
+.btn1 {
+    grid-area: a;
+    font-size: larger;
+}
+
+.btn2 {
+    grid-area: b;
+}
+
+.btn3 {
+    grid-area: c;
+}
+
+.btn4 {
+    grid-area: e;
+}
+
+.btn5 {
+    grid-area: f;
+}
+
+.btn6 {
+    grid-area: g;
+}
+
+.btn7 {
+    grid-area: i;
+}
+
+.btn8 {
+    grid-area: j;
+}
+
+.btn9 {
+    grid-area: k;
+}
+
+.btn0 {
+    grid-area: n;
+}
+
+.coma {
+    grid-area: m;
+}
+
+.clear {
+    grid-area: o;
+}
+
+.equal {
+    grid-area: q;
+}
+
+.divide {
+    grid-area: d;
+}
+
+.multiply {
+    grid-area: h;
+}
+
+.add {
+    grid-area: p;
+}
+
+.minus {
+    grid-area: l;
+}
+
+button {
+    font-size: larger;
+    gap: 10px;
+    width: 76.5px;
+    height: 65px;
+    border: 2px black solid;
+}

@@ -1,0 +1,59 @@
+body {
+    background-color: chocolate;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+h4 {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(13, 255, 0);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.fas {
+    font-size: 100px;
+}
+
+.show {
+    text-align: center;
+}
+
+.containerTwo {
+    display: flex;
+    gap: 100px;
+    color: white;
+}
+
+li {
+    font-size: larger;
+}
+
+#showResult {
+    text-align: center;
+}
